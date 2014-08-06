@@ -33,7 +33,7 @@ module BetterErrors
     # manually. If this attribute is `nil`, nothing will be logged.
     #
     # @return [Logger, nil]
-    attr_accessor :logger
+    #attr_accessor :logger
 
     # @private
     attr_accessor :binding_of_caller_available
